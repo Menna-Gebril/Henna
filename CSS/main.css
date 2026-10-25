@@ -1,0 +1,199 @@
+.nav-home {
+  background-color: #da6864;
+}
+.sup-nav .icons span {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  font-size: 14px;
+  margin: 2px;
+  border-radius: 50%;
+}
+
+.nav-links .links a {
+  color: #8f8e8b;
+  font-weight: 500;
+  margin-right: 10px;
+}
+.nav-links .links a.active {
+  color: #000;
+}
+.nav-links form {
+  position: relative;
+}
+.nav-links form input {
+  background-color: #cbd7d165;
+}
+.nav-links form span {
+  color: #8f8e8b;
+  font-size: 18px;
+  position: absolute;
+  left: 15px;
+  top: 8px;
+}
+.nav-links button {
+  background-color: #da6864;
+  color: #fff;
+  padding-inline: 25px;
+  margin-left: 20px;
+}
+.last-nav p {
+  color: #8f8e8b;
+  font-weight: 300;
+}
+.last-nav button {
+  background-color: #efd5c5c0;
+  color: #da6864;
+  font-weight: 500;
+}
+
+.last-nav button.account {
+  background-color: #da6864;
+  color: #fff;
+}
+
+.header-home {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../img/back-header-back.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.header-home h1 {
+  font-size: 60px;
+}
+.header-home p {
+  font-size: 25px;
+  font-weight: 300;
+}
+.header-home button {
+  background-color: #da6864;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 20px;
+}
+.home-cards img {
+  height: 300px;
+  object-fit: cover;
+}
+.home-cards .layer {
+  background-color: #795a49;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  width: 80%;
+}
+.home-cards .col:nth-child(4) .layer,
+.home-cards .col:nth-child(5) .layer {
+  background-color: #eab9a0;
+}
+
+.providers-home .layer {
+  background-color: #c1ddd2;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 90%;
+}
+
+.join button {
+  background-color: #da6864;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 60px;
+}
+.join .layer {
+  background-color: #c1ddd2ab;
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+}
+
+.newsletter form {
+  position: relative;
+}
+.newsletter form input {
+  background-color: #cbd7d165;
+}
+.newsletter form span {
+  color: #8f8e8b;
+  font-size: 18px;
+  position: absolute;
+  left: 15px;
+  top: 8px;
+}
+.newsletter button {
+  background-color: #da6864;
+  color: #fff;
+  padding-inline: 25px;
+  margin-left: 20px;
+}
+
+.download {
+  background-image:
+    linear-gradient(to left bottom, #1c3d44a6, #1c3d4467),
+    url("../img/Rectangle\ 19.png");
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+}
+.download .btns button {
+  font-weight: 500;
+}
+.download .btns button:nth-of-type(1) {
+  color: #fff;
+  border: 1px solid #fff;
+  padding-inline: 45px;
+}
+
+.download .btns button:nth-of-type(2) {
+  background-color: hsl(20, 93%, 89%);
+  color: #c66367;
+  padding-inline: 45px;
+  border: none;
+}
+
+.about .inner {
+  background: linear-gradient(to right bottom, #cf5e5e, #f57c67);
+  color: #fff;
+  height: 250px;
+  padding-top: 15px;
+  padding-left: 20px;
+  border-radius: 20px;
+}
+.about .col-lg-4:nth-child(2) .inner {
+  background: linear-gradient(to right bottom, #1f5459, #59cdcd);
+}
+
+.footer-home span.icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #f9e5de;
+  color: #c66367;
+  font-size: 18px;
+  margin: 2px;
+  border-radius: 50%;
+}
+.footer-home span{
+    color: #c66367;
+}
+
+@media screen and (max-width: 768px) {
+  .join button {
+    width: 100%;
+  }
+  .join .layer {
+    background-color: #c1ddd2ab;
+    position: absolute;
+    bottom: 5%;
+
+    width: 80%;
+  }
+}
